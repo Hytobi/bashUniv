@@ -1,0 +1,28 @@
+Complément
+Ecrire un programme shell permettant d'afficher les noms des fichiers du répertoire courant ne
+figurant pas dans la liste de paramètres de la commande.
+Syntaxe : complement file1 file2 …. filen
+
+
+Factorielle
+Ecrire un programme shell permettant de calculer la factorielle d'un nombre passé en paramètre.
+– De manière itérative
+– De manière récursive
+
+
+Chercher
+Ecrire un programme shell réalisant une recherche récursive d'un fichier ou d'un répertoire. La
+syntaxe de cette commande devra être la suivante :
+cherche <type> <repertoire><nom>
+où type est f ou d suivant que l'on cherche respectivement un fichier ou un répertoire ;
+<repertoire> est le nom du répertoire où commence la recherche ;
+<nom> est le nom du fichier ou du répertoire à trouver.
+
+
+Nettoyage
+Ecrire un programme shell permettant de supprimer tous les fichiers se terminant par les caractères
+% ou ~ et de comresser tous les autres fichiers à l'aire de la commande gzip.
+Ce nettoyage s'effectue sur un répertoire passé en paramètre ainsi que sur tous ses sous-répertoires.
+Syntaxe : clean <repertoire>
+Remarque : La commande gzip remplacera le fichier file par une version compressée du fichier de
+nom file.gz. La commande clean devra éviter de compresser les fichiers déjà compressés.

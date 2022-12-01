@@ -1,0 +1,37 @@
+1 Branchements conditionnels : le if
+Exercice 1 : Écrire un script qui détermine si un nombre passé en argument de la commande est pair ou impair.
+
+Exercice 2 : Écrire un script qui renvoie le plus grand nombre parmi des trois passés en argument de la commande.
+
+
+2 Branchements conditionnels : le case
+Exercice 3 : Écrire un script permettant de simuler une calculatrice pour les opérateurs +, -, x, / et %. Pour cela
+votre programme devra permettre d’effectuer une saisie du type : ./calc.sh 124 x 3456
+
+
+3 Structures de contrôles : le for et le while
+Exercice 4 : Écrire un script qui teste si un nombre passé en argument de la commande est un nombre premier.
+
+Exercice 5 : Écrire un script qui renvoie les 100 premiers nombres premier.
+
+Exercice 6 : Écrire un script qui permet d’afficher l’ensemble des arguments passés sur la ligne de commande.
+
+Exercice 7 : Écrire un script qui affiche toutes les puissances de 2, jusqu’à une valeur maximale passé en argu-
+ment de la commande. Le calcul des puissances de 2 sera effectué par multiplications successives.
+
+
+4 Exercices divers
+Exercice 8 : Un entier strictement positif x est un nombre factoriel s’il existe un autre entier y tel que x = y !.
+Écrire un script qui étant donné un entier x, vérifie si x est un nombre factoriel, et, si c’est le cas affiche la
+valeur de y. L'entier x est passé en argument de la commande.
+
+Exercice 9 : Écrire un script permettant de déterminer le nombre de voyelles (a, e, i, o, u et y) d’un mot passé en
+argument de la commande.
+
+Exercice 10 : Étant donné un entier n fourni en argument de la commande, écrire un script permettant d’afficher
+une pyramide constituée de n lignes de lettres comme l’illustre l’exemple suivant (avec n = 5) :
+    a
+   aba
+  abcba
+ abcdcba
+abcdedcba

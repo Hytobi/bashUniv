@@ -1,0 +1,40 @@
+Protéger
+Ecrire un programme shell permettant de tester l'existence d'un fichier dont le nom est donné en
+paramère et qui protège ce fichier complètement (aucun droit pour le groupe et les autres). Si aucun
+paramètre n'est fourni ou que le fichier n'existe pas, le programme envoie un message d'erreur.
+
+
+Effacer
+Ecrire un programme shell permettant de tester l'existence d'un fichier dont le nom est donné en
+paramètre et qui range ce fichier dans le répertoire .poubelle de votre ''home directory''. Si aucun
+paramètre n'est fourni ou que le fichier n'existe pas, le programme envoie un message d'erreur. Si le
+répertoire .poubelle n'existe pas, il doit être créé.
+
+
+Visualisation
+Ecrire un programme shell affichant le contenu, page par page, des fichiers passés en paramètres. Si
+l'un des fichiers de la liste n'existe pas, un message d'erreur est envoyé. Si le fichier est un
+répertoire, on affiche son contenu.
+
+
+Sauvegarde intelligente
+Il s'agit de fournir à l'utilisateur des outils évolués de sauvegarde de fichiers d'un répertoire source
+vers un répertoire destinataire. Vous devez donc développer la commande suivante : save
+save [-i] <source> <destination>
+Le paramètre <source> permet à l'utilisateur de désigner un ou plusieurs fichiers à sauvegarder.
+Exemples :
+>save *.c tmp
+Copie tous les fichiers d'extension ''.c'' du répertoire courant vers le répertoire tmp. Une erreur doit
+être signalée si le répertoire tmp n'existe pas.
+>save prog.c tmp/rep.c
+Copie le fichier prog.c dans le répertoire tmp/rep.c. Une erreur doit être signalée si le fichier prog.c
+n'existe pas.
+Ecrire la commande save sans l'option
+L'option -i (interactive mode) permet une interaction avec l'utilisateur. Si la commande save doit
+sauvegarder un fichier qui l'est déjà, le programme demande alors à l'utilisateur si le fichier doit être
+écrasé.
+Exemple :
+>save -i *.c tmp
+le fichier ex1.c doit-il remplacer tmp.ex1.c ? (O/n)
+le fichier ex2.c doit-il remplacer tmp.ex2.c ? (O/n)
+Ecrire la commande save avec l'option.
